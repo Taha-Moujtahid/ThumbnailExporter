@@ -11,7 +11,7 @@ import SwiftUI
 struct ThumbnailExporterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(width: 640, height: 640)
         }
     }
 }
